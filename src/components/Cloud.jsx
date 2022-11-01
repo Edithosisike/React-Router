@@ -2,7 +2,7 @@ import React from 'react';
 
 function Cloud () {
   return(
-    <div><button className="btn">Cloud</button></div>
+    <div><Button className="btn">Cloud</Button></div>
   )
 }
 

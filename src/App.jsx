@@ -23,8 +23,7 @@ function App() {
         <Route path="/backend" element={<Backend />} />
         <Route path="/cloud" element={<Cloud />} />
         <Route path="/users" element={<Users />}>
-          <Route path=":userid" element={<Users />} />
-        </Route>
+          <Route path="/:userid" element={<Users />} /></Route>
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
