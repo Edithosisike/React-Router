@@ -2,7 +2,9 @@ import React from 'react';
 
 function Backend() {
   return (
-    <div><Button className="btn">Backend</Button></div>
+    <div>
+      <button className="btn">Backend </button>
+    </div>
   )
 }
 
